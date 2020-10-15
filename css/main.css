@@ -1,3 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* sutff for header */
+header {
+  background-color: #ff1801;
+  margin: 0;
+  padding: 0;
+}
 h1 {
-  color: burlywood;
+  font-size: 40pt;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+header p {
+  margin: 0;
+  padding: 0;
+  font-size: 20pt;
+  text-align: center;
+}
+#headline {
+  margin: auto;
+  width: 40%;
 }
