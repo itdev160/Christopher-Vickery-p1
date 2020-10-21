@@ -1,6 +1,8 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: black;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 /* sutff for header */
@@ -21,7 +23,66 @@ header p {
   font-size: 20pt;
   text-align: center;
 }
-#headline {
-  margin: auto;
-  width: 40%;
+
+/* body */
+
+/* main */
+main {
+  margin-bottom: 25px;
+}
+
+/* artical race text */
+
+#race-text {
+  width: 70%;
+  margin: 0 auto;
+  background-color: ;
+  border: 3px solid black;
+  padding: 1%;
+  border-radius: 1%;
+  background-color: whitesmoke;
+  margin-top: 25px;
+  line-height: 1.4;
+  box-shadow: 4px 4px 4px 4px #ff1801;
+}
+.pics {
+  width: 70%;
+  max-width: 450px;
+  padding: 2%;
+}
+.float-left {
+  float: left;
+}
+.clear {
+  clear: both;
+}
+.float-right {
+  float: right;
+}
+
+/*tables*/
+section {
+  background-color: whitesmoke;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 4%;
+  padding: 2%;
+  box-shadow: 4px 4px 4px 4px #ff1801;
+}
+
+.copyrite {
+  font-family: monospace;
+  font-weight: 100;
+  font-size: 10pt;
+  font-style: italic;
+}
+h2 {
+  text-align: center;
+}
+table {
+  width: 100%;
+}
+th {
+  text-align: left;
 }

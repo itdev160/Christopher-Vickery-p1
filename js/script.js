@@ -378,7 +378,11 @@ var raceResults = [
         pointsElf = document.getElementById(sec + "-points-f");
 
         // write starting grid data to the DOM
-        posElf.textContent = finish.position;
+        if(finish.position <= 15){
+        posElf.textContent = finish.position;}
+        else{
+          posElf.textContent = "nc"
+        }
         numElf.textContent = finish.number;
         driveLNElf.textContent = finish.driverLastName;
         teamElf.textContent = finish.team;
