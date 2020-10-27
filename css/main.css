@@ -40,7 +40,7 @@ main {
   border: 3px solid black;
   padding: 1%;
   border-radius: 1%;
-  background-color: whitesmoke;
+  background-color: #e6e5e5;
   margin-top: 25px;
   line-height: 1.4;
   box-shadow: 4px 4px 4px 4px #ff1801;
@@ -62,7 +62,7 @@ main {
 
 /*tables*/
 section {
-  background-color: whitesmoke;
+  background-color: #e6e5e5;
   width: 70%;
   margin: 0 auto;
   margin-top: 20px;
